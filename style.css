@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+  
+}
+.fundo {
+text-align: 100%;
+}
+
+body {
+    background-color:lightsteelblue;
+background-image: url(imagens/undraw_laravel_and_vue_-59-tp.svg);
+background-repeat: no-repeat;
+overflow: hidden;
+background-size: 200px;
+background-position: bottom right;
+color:black;
+font-size: bold;
+
+
+}
+
+fieldset {
+    border: none;
+    align-items:center;
+    padding: 15px;
+}
+
+header {
+    
+    text-align: center;
+    font-size: 20px;
+    margin: 5px 10px; 
+   
+    
+}
+
+.contact-form{
+    grid-column: span 2;
+   
+
+}
+
+
+.contact-form .form-grid{
+display: flex;
+flex-direction: row;
+flex-wrap:wrap;
+margin-bottom: 5px;
+
+
+}
+
+.form-group{ 
+    flex: 1 1 320px;
+ padding: 5px;
+font-size: 18px;
+
+
+}
+.form-group label {
+    display: block;
+}
+
+.form-group input,
+.form-group textarea {
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+}
+
+.professional {
+    font-size: 15px;
+    margin: 3px;
+
+}
+
+.professional-performance  {
+    margin-bottom: 5px;
+    padding: 5px 20px;
+    font-size: 18px;
+   
+}
+
+.interaction {
+
+    font-size: 18px;    
+    margin: 20px;
+
+}
+.interaction input{
+    padding: 5px 5px;
+  
+    
+}
+
+.tech-use {
+ 
+    font-size: 18px; 
+    margin: 18px;
+}
+
+.tech {
+ 
+    padding: 1px 20px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;     
+}
+
+.message {
+
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding:10px 20px;
+}    
+.message textarea{
+min-width: 500px;
+padding: 5px 10px;
+margin: 0;
+
+}
+
+.button {
+text-align: center;
+padding-bottom: 150px;
+background-size: 20px;
+
+}
+footer {
+    text-align: center;
+   text-decoration: none ;
+  
+    
+}
